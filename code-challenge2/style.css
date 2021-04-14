@@ -1,0 +1,32 @@
+html {
+  background-color: #ff6347;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+body {
+  width: 450px;
+  height: 450px;
+  padding: 20px;
+  border: 4px solid black;
+  background-color: #f5deb3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+div {
+  border: 5px solid white;
+  background-color: #008080;
+  margin: 10px;
+}
+.square {
+  width: 110px;
+  height: 110px;
+}
+#rectangular {
+  width: 400px;
+  height: 110px;
+  border-style: dashed;
+}
