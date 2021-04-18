@@ -1,0 +1,30 @@
+.playbar {
+  margin: 5px 10px;
+  padding: 0 25px;
+  height: 45px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #222222;
+  border-radius: 30px;
+  color: #eaeaea;
+}
+.playbar__text {
+  display: flex;
+  flex-direction: column;
+}
+.playbar__text--singer {
+  font-size: 12px;
+  color: #777777;
+  margin-bottom: 3px;
+}
+.playbar__text--title {
+  font-size: 15px;
+}
+.playbar__btn {
+  font-size: 15px;
+  font-weight: 400;
+  display: flex;
+  justify-content: space-between;
+  width: 75px;
+}

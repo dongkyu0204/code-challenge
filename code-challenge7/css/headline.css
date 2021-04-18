@@ -1,0 +1,19 @@
+.headline {
+  width: 275px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 19px;
+  box-sizing: border-box;
+  margin-top: 18px;
+}
+.headline i {
+  width: 20px;
+}
+.headline i:first-child {
+  font-size: large;
+}
+.headline i:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,26 @@
+@import "reset.css";
+@import "headline.css";
+@import "list-scr__main.css";
+@import "playbar.css";
+@import "play-scr__content.css";
+
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Rubik:wght@400;600&display=swap");
+
+body {
+  background-color: #f3f3f4;
+  font-family: "Rubik", sans-serif;
+}
+
+.scr {
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.scr > article {
+  width: 275px;
+  height: 590px;
+  background-color: white;
+  border-radius: 30px;
+}
